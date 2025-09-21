@@ -1,6 +1,7 @@
 package com.gkfcsolution.springbootspringsecurityjwtcomplete.api.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @time 20:54
  */
 @RestController
+@RequestMapping("/api/v1/rest")
 public class WelcomeController {
 
     @GetMapping("/hello")
